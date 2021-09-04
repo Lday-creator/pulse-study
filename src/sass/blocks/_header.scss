@@ -35,3 +35,19 @@
         align-items: flex-end;
     }
 }
+
+
+@media (max-width: 640px) {
+    .header {
+        justify-content: space-between;
+        &__logo {
+            padding-right: 10px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size:14px;
+        }
+    }
+}
